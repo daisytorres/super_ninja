@@ -45,7 +45,9 @@ const ninja1 = new Ninja("Hyabusa");
 // ninja1.showStats();
 // ninja1.drinkSake();
 
+
 //inheriting a class
+//calling a super is only trying to call and execute a function of your super class
 class Sensei extends Ninja{
     constructor(name){  //put in name because does not have a default name in ninja constructor
         super(name) //finds this method first and then looks for constructor method
